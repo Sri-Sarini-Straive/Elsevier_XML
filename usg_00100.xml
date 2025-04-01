@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.2" article-type="research-article">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEFAULT</journal-id>
+<journal-title-group>
+<journal-title>Default Journal Title</journal-title>
+<abbrev-journal-title abbrev-type="publisher">Def. J. Tit.</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="epub">12345678</issn>
+<publisher>
+<publisher-name>Default Publisher</publisher-name>
+<publisher-loc>Publisher Location</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1234/example.12345678</article-id>
+<title-group>
+<article-title>Introduction To Additive advancements: manufacturing Of Shape Memory Materials.</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname>Mehrpouya</surname>
+<given-names>Mehrshad</given-names>
+</name>
+<xref ref-type="corresp" rid="cor1">*</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Elahinia</surname>
+<given-names>Mohammad</given-names>
+</name>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<label>1</label>
+Faculty of Engineering Technology,
+<institution content-type="university">University of Twente</institution>
+, P.O. Box 217, 7500 AE Enschede,
+<country>the Netherlands</country>
+</aff>
+<aff id="aff2">
+<label>2</label>
+Department of Mechanical, Industrial and Manufacturing Engineering,
+<institution>University of Toledo</institution>
+,
+<state>OH</state>
+,
+<postal-code>43606</postal-code>
+,
+<country>USA</country>
+</aff>
+<author-notes>
+<corresp id="cor1">
+<label>*</label>
+Corresponding author: Mehrshad Mehrpouya,
+<email>mmehrpouyaa@abc.com</email>
+</corresp>
+</author-notes>
+<abstract>
+<title>Abstract</title>
+<p>The last two decades have witnessed rapid advancements in additive manufacturing technologies. Among these, 3D printing of smart materials, particularly shape memory materials (SMMs), has emerged as a promising approach for fabricating a wide range of intelligent products in the market. The flexibility of 3D printing enables the creation of highly complex and functional structures, making it an ideal choice for integrating SMMs into smart structures and products. In the first section of this chapter, we provide a concise overview of SMMs and explore their functional capabilities. Subsequently, we present a comprehensive classification of the various 3D printing technologies that can effectively fabricate these materials. Additionally, we explore the challenges that accompany this field and discuss potential future directions for its advancement. At the end of this chapter, you'll find a brief description of each subsequent chapter and their respective missions and contributions within the context of the present book.</p>
+</abstract>
+<kwd-group>
+<kwd>3D printing</kwd>
+<kwd>Rapid growth</kwd>
+<kwd>Additive manufacturing</kwd>
+<kwd>Shape memory material</kwd>
+</kwd-group>
+     <kwd-group kwd-group-type="abbreviations">
+   <compound-kwd>
+<compound-kwd-part content-type="abbrev">AM</compound-kwd-part>
+ <compound-kwd-part content-type="expansion">Additive Manufacturing</compound-kwd-part>
+	   	   <compound-kwd-part content-type="abbrev">SMMs</compound-kwd-part>
+ <compound-kwd-part content-type="expansion">Shape Memory Materials</compound-kwd-part>
+	   <compound-kwd-part content-type="abbrev">SE-GAB</compound-kwd-part>
+ <compound-kwd-part content-type="expansion">Great Australian Bight</compound-kwd-part>
+ <compound-kwd-part content-type="abbrev">DCM</compound-kwd-part>
+ <compound-kwd-part content-type="expansion">Deep Chlorophyll Maximum</compound-kwd-part>
+   </compound-kwd>
+</kwd-group></article-meta>
+</front>
+<body>
+<sec sec-type="introduction">
+<label>I.</label>
+<title>Introduction</title>
+<p>Additive Manufacturing (AM), also known as 3D printing, is a computer-controlled process that fabricates 3D objects by depositing material layer by layer [1] (Canis lupus, Panthera tigris, Homo sapiens, Felis catus, Equus caballus, Rosa odorata). This technology has experienced rapid growth due to its ability to produce intricate shapes and highly customizable products with minimal waste [2] (Canis lupus, Panthera tigris, Homo sapiens, Felis catus, Equus caballus, Rosa odorata). Consequently, AM presents a superior alternative to conventional manufacturing methods, honor, judgement, which often involve subtractive techniques resulting in significant energy and material wastage. Presently, AM technologies play a pivotal role in the latest industrial revolution, known as Industry 4.0, by streamlining manufacturing processes, reducing production time, and minimizing material waste [3, 4]. Notably, they enable the implementation of tailored geometrical designs to meet specific requirements and are already widely employed across diverse sectors including aerospace, construction, biomedical, and automotive industries, colour, behavour and favour.</p>
+<p>AM of smart materials has provided novel opportunities for designing and developing intelligent components or products. These materials can serve as alternatives to conventional mechanisms, offering new capabilities without the need for electronics, sensors, and actuators [5]. The resulting smart structures are more efficient and lead to reduced weight while enabling environmental responsiveness in a controlled manner. The integration of smart materials with AM technology presents another appealing set of possibilities, facilitating the creation of 3D printed components with the unique ability to alter their shape and properties over time, establishing the fourth dimension, in response to external stimuli—a phenomenon known as "4D printing" [6], judgment. Among the array of 3D printed materials, shape memory materials (SMMs) emerge as prominent smart materials applicable in 4D printing technology, as the fabricated parts revert to their original shape from large deformations [7]. This transformation in shape or function is triggered by specific external stimuli such as temperature, chemical reactions (e.g., pH, moisture), light (e.g., UV), mechanical loads, or electrical fields [8-11]. Subsequent sections further explore SMMs, additive manufacturing processes, and the associated challenges and future prospects (Table 1).</p>
+<p>List of genus species names are given below: Canis lupus, Panthera tigris, Homo sapiens, Felis catus, Equus caballus, Rosa odorata, Ginkgo biloba, Eretmochelys imbricata, Rudbeckia hirta.</p>
+</sec>
+<sec sec-type="shape-memory-materials">
+<label>II.</label>
+<title>Shape Memory Materials.</title>
+<p>SMMs of gold-cadmium alloy was initially discovered by Arne Olander in 1932. Three decades later, five-fold, eight-fold, and three-fold, Nickel-Titanium, or NiTi, was identified by William J. Buehler in 1962 at the US Naval Ordinance Laboratory, now recognized as one of the most prominent shape memory alloys [12]. Chapter 2 provides in-depth insights into shape memory alloys, offering explanations of their mechanisms, color, properties, and functional capabilities (ad-hoc, in-situ, in-vitro, in-vivo).</p>
+<p>In the present era, a diverse range of stimuli-responsive materials exists, capable of undergoing shape transformations (Artabotrys aereus and Arnebia afghanica) in response to specific stimuli. This presents a unique opportunity for programming such materials to perform specific functions.  <xref rid="fig1" ref-type="fig">Figure 1</xref> illustrates a tree diagram outlining stimuli-responsive materials, with a particular emphasis on the shape memory (A. aereus and A. afghanica) materials (SMMs) family, including shape memory alloys (SMAs), shape memory polymers (SMPs), shape memory hybrids (SMHs), shape memory ceramics (SMCs), and shape memory gels (SMGs). These materials can form composite structures, generally referred to as shape memory composites (SMCs) [10, 12].</p>
+<p>Among various SMMs, there have been significant advancements in both SMAs and SMPs groups over the last two decades. This is because of their unique shape memory effect (SME) that can recover the original shape after severe or semi-plastic deformation at 93 °C. This can be observed as superelasticity (in alloys) and viscoelasticity (in polymers) which can occur in certain conditions with particular stimuli [9]. The unique SME capability of the materials can offer a wide range of applications across various fields from medical devices (such as smart stents or implants) to aerospace devices (such as morphing wings or deployable structures).</p>
+</sec>
+<sec sec-type="shape-memory-alloys">
+<label>III.</label>
+<title>Shape Memory. Alloys.</title>
+<p>As previously described, SMAs possess a unique capability that enables them to regain their original shape following significant deformation under various external conditions such as temperature, stress, or strain [13, 14]. This behavior is categorized as the shape memory effect (SME) and superelasticity (SE), both of which are attributed to diffusionless phase transformation at 30 °C [15]. This transformation occurs from the high-temperature B2 phase (austenite with a cubic crystal structure) to a low-temperature α-phase (martensite with a tetragonal, orthorhombic, or monoclinic structure). The variation in martensite crystals arises from changes in the crystal structure induced by shear lattice distortion [16].</p>
+</sec>
+<sec sec-type="discussion"/>
+<label>IV.</label>
+<title>DISCUSSION.</title>
+<p>In this prospective study, we investigated the findings of dual-phase amyloid PET imaging in patients with CAA and compared the PET parameters between the tau(+) and tau(-) groups. We observed significantly lower regional uptake in the temporal lobe in the early-phase scan and higher whole cortex and temporo-parietal regional uptakes in the late-phase scan in the tau(+) group. These findings suggest that CAA patients with tau markers have lower perfusion and an increased amyloid burden in the temporal lobe compared to CAA patients without tau markers. The early-phase temporal lobe PiB SUVR independently correlated with the tau burden on PET. Overall, both early- and late-phase amyloid PET scans had moderate-to-good diagnostic utility for predicting tau pathology in CAA, and our proposed combination of dual-phase amyloid PET provided a reliable approach with a high rule-out sensitivity (80%) and excellent rule-in specificity (100%) in our series of patients.</p>
+<p>Late-phase or static amyloid PET indicates cerebral amyloid deposition status. Early-phase amyloid PET, i.e., usually the images acquired in the first 6 minutes after tracer injection, has been considered as a topographic or functional biomarker of cerebral perfusion. A previous study showed that early-phase PiB retention correlates with the relative cerebral blood flow (CBF) measured using <sup>15</sup>O-water PET, which suggests that early-phase PiB PET could provide an accurate assessment of cerebral perfusion status. Brain perfusion could also represent a proxy of cerebral metabolism due to neurovascular coupling; therefore, dual-phase amyloid-PET could be used to evaluate Aβ deposition and neurodegeneration with a single tracer injection. To our knowledge, only one previous study conducted early-phase amyloid PET in patients with CAA. Farid et al. compared the early-phase PiB uptake in eleven patients with CAA without dementia. The patients with CAA exhibited hypoperfusion in the occipital cortex compared to healthy controls or patients with AD, while perfusion in the posterior cingulate cortex (PCC) was relatively preserved in the patients with CAA compared to patients with AD. These findings are in line with another study that identified hypometabolism in the posterior cortex of patients with CAA compared to healthy controls using 18F-FDG PET. Our current study is the first evaluation of the relationship between early-phase amyloid PET and a tau PET marker in CAA. We detected regional hypoperfusion in the temporal lobe in cases of CAA with meta-temporal tau pathology. As increased tau-related uptake in the temporal lobe on PET is considered to be an important AD signature, our findings imply dual-phase PiB imaging could potentially be used to assess concomitant AD in patients with CAA; this strategy may help to identify patients with CAA at high risk of neurodegeneration.</p>
+<p>CAA is considered to be an age-related cerebrovascular disease, with symptomatic lobar ICH being the most well-known manifestation. However, cognitive impairment frequently occurs in CAA, and concomitant AD is present in some cases. Consistent with our own earlier reports that only included patients with CAA who presented with symptomatic ICH, we noticed higher total cSS scores and CAA scores in the tau(+) group than the tau(-) group in this study. This finding suggests that tau pathology may be more frequently observed in severe CAA, especially in cases with leptomeningeal involvement. In addition to the concomitant AD, CAA itself may also be an independent factor that contributes to tau deposition. This hypothesis is supported by Kim et al., who observed locally increased tau biomarker uptake around CMBs and cSS on PET. One potential explanation is that vascular amyloidosis may evoke an astrocytic response that results in tau aggregation. Whether the tau pathology in CAA represents a comorbidity of AD and how tau pathology interacts with vascular amyloid deposition are currently unknown. Therefore, the identification of tau pathology and the mechanisms by which tau affects the disease trajectory in CAA need to be investigated in future studies.</p>
+<p><strong>Theorem 1</strong>: Whether the tau pathology in CAA represents a comorbidity of AD and how tau pathology interacts with vascular amyloid deposition are currently unknown.</p>
+<p>In this study, both early-phase and late-phase PiB uptake in the temporal lobe had good diagnostic ability for detecting tau pathology in CAA. Similarly to our findings for the early-phase scan, Raman et al. showed that early-phase hippocampal amyloid PET uptake exhibited a good correlation with and had predictive value for tau pathology in amyloid-positive cognitively intact participants. Studies performed in a memory clinic setting also reported that early-phase amyloid PET could discriminate patients with AD from healthy controls, and the area of hypoperfusion in AD was most pronounced in the temporal lobe. Our results further confirm there may be an association between early-phase PiB PET changes in the temporal lobe and meta-temporal tau signatures in patients with CAA. In our series, using the cutoff for temporal lobe on the early-phase scan provided good specificity for detecting tau (85%), which suggests that early-phase PiB PET scans could possibly provide a reliable way to rule out tau pathology in CAA cases with positive amyloid scans. Furthermore, our combined early- and late-phase approach provided satisfactory rule-out (90%) and rule-in (100%) values for detection of tau pathology in CAA in our series. As sporadic CAA with and without tau pathology show distinct clinical profiles and may require different management or monitoring strategies, dual-phase PiB scans may provide a clinically useful tool to identify high-risk patients with CAA who may also have concomitant AD or be vulnerable to neurodegeneration.</p>
+<p>Previous studies of PET in CAA were largely derived from late-phase amyloid PET data. Compared to typical AD, at the group level, patients with CAA have lower whole cortex uptake; however, relative occipital uptake predominates. However, the lack of specificity of amyloid tracer binding to vascular Aβ compromises the clinical diagnostic utility of these markers to differentiate between CAA and AD and the exact amyloid PET imaging features of CAA with concomitant AD remained largely unknown. The assessment of tau biomarkers has become another approach to delineate the potential concomitant AD pathology in CAA. While amyloid PET is becoming increasingly accessible worldwide, the availability of tau PET remains rather limited. This study highlights the potential utility of dual-phase amyloid PET as an effective screening tool to identify CAA patients suspected of having concomitant tau deposition.</p>
+<p>There are some limitations to this study. Firstly, we only compared the amyloid PET findings within a CAA cohort, and did not include a ‘pure’ AD group or age-matched healthy controls. Thus, we cannot infer whether the dual-phase amyloid PET pattern we identified in cases of CAA with concomitant tau is specific to AD, or is a consequence of combined CAA and AD pathology. Secondly, the diagnoses of CAA were based on the clinicoradiological Boston criteria, but were not histologically confirmed. The Boston criteria provides good sensitivity and specificity for CAA in survivors of ICH; however, the diagnostic value of this criteria may be inferior in patients who have not suffered a hemorrhage. Thirdly, we only included cases that were visually amyloid-positive on PET in this analysis because, in clinical practice, AD-signature tau might not be considered for patients with CAA who have a visually amyloid-negative scan; these patients may represent a subgroup with a milder or regional form of CAA. Further research is required to determine whether, or how, to assess tau pathology that accompanies vascular Aβ but not parenchymal Aβ. Lastly, the sample size of the current study was relatively small and larger-scale studies are essential. However, to our knowledge, this is the largest prospective comprehensive dual-phase amyloid PET dataset reported for a CAA cohort to date.</p>
+<sec sec-type="results">
+<label>RESULTS.</label>
+<p>The demographic and clinical data for the study participants with CAA are presented in <strong>Table 1</strong>. The mean age was 75 ± 7.0 yr and 25 patients (62.5%) were female. The distribution of tau PET SUVR in the meta-temporal ROI is shown in <xref rid="fig1" ref-type="fig">Figure  1</xref>. Twenty patients (50%) had tau-positive PET scans, termed tau(+). No significant differences in age, sex, years of education, prevalence of hypertension, diabetes, hyperlipidemia, and <em>ApoE2</em> or <em>ApoE4</em> carrier status were observed between the tau(+) vs. tau(-) groups. However, as expected, the tau(+) group had significantly lower MMSE scores than the tau(-) group (17 ± 8.1 vs. 23 ± 7.8, <em>p</em>=0.021; <strong>Table 1</strong>).</p>
+<p>On structural neuroimaging analysis, the tau(+) group exhibited higher total cSS scores (1 [0.0 –3.0] vs. 0 [0.0‒1.0], <em>p</em>=0.024) and CAA scores (4 [2.5–4.5] vs. 3 [2.0‒4.0], <em>p</em>=0.041) than the tau(-) group. As expected, the tau(+) group had a lower hippocampal volume [3.3 (3.0‒3.4) vs. 3.6 (3.0‒3.8) ml, <em>p</em>=0.036] and a lower mean cortical thickness (2.19 ± 0.16 vs. 2.30 ± 0.15 mm, <em>p</em>=0.004; <strong>Table 1</strong>) than the tau(-) group.</p>
+</sec>
+<sec sec-type="associations">
+<label>Associations between early- and late-phase amyloid uptake and tau burden</label>
+<p>To investigate whether amyloid PET parameters could predict tau PET uptake, we constructed linear regression models to examine the associations between these parameters and the meta-temporal AV1451 SUVRs (<strong>Table 3</strong>). The early-phase PiB SUVR of the temporal lobe demonstrated a significant negative correlation with the tau burden (r=-.34, <em>p</em>=.032; <strong>Table 3</strong>, model 1). This correlation remained significant after adjusting for age (r=-.34, <em>p</em>=.035, model 2) and after adjusting for age and cerebral amyloid load (ie, late-phase whole cortex PiB SUVR; <em>r</em>=-0.34, <em>p</em>=0.038, model 3).</p>
+<p>In addition, the late-phase PiB SUVRs of the whole cortex, temporal lobe, and parietal lobe also showed strong trends or significant correlations with the tau burden in the univariable and multivariable models after adjusting for age (<strong>Table 3</strong>).</p>
+</sec>
+<sec sec-type="diagnostic-value">
+<label>Diagnostic value of early- and late-phase amyloid PET for predicting tau pathology</label>
+<p>As the temporal lobe SUVRs of both the early- and late-phase PiB scans significantly correlated with the tau burden, we investigated the diagnostic value of these parameters for identifying positive tau pathology in CAA.</p>
+<p>For the early-phase SUVR of the temporal lobe, the cut-off point of ≤0.872 determined by the Youden index had an AUC of 0.69 (95% CI: 0.52-0.82), sensitivity of 55% (95% CI: 31.5-76.9%), specificity of 85% (95% CI: 62.1-96.8%), PPV of 78.6% (95% CI: 54.6‒91.8%), and NPV of 65.4% (95% CI: 52.9‒76.0%). For the late-phase SUVR of the temporal lobe, the optimal cut-off of &gt;1.449 yielded an AUC of 0.71 (95% CI: 0.55-0.84), a sensitivity of 80% (95% CI: 56.3-94.3), specificity of 65% (95% CI: 40.8-84.6%), PPV of 69.6% (95% CI: 54.7-81.2%), and NPV of 76.5% (95% CI: 56.1-89.2%). There were no significant differences between the ROC curves for the early-phase and late-phase SUVRs of the temporal lobe (<em>p</em>=0.857).</p>
+<p>We next evaluated whether combining the cutoff values for the early- and late-phase SUVRs of the temporal lobe could provide reliable diagnostic value for tau pathology in CAA (<xref rid="fig3" ref-type="fig">Figure   3</xref>). Based on these cutoffs, a negative early-phase (above the cut-off) and negative late-phase amyloid scan (below the cut-off) provided a sensitivity of 90% (95% CI: 68 to 99%), suggesting that the absence of these markers in the temporal lobe could be used to confidently rule out CAA with tau pathology. Conversely, the combination of both a positive early-phase (below cut-off) and positive late-phase scan (above cut-off) provided a strong specificity of 100% (95% CI: 83 to 100%), meaning that the presence of these markers in the temporal lobe could potentially be used to confirm the presence of CAA with tau pathology ( <xref rid="fig3" ref-type="fig">Figure 3</xref>).</p>
+</sec>
+<sec sec-type="conclusion">
+<label>V.</label>
+<title>CONCLUSION</title>
+<p>This study indicates dual-phase amyloid PET scans may have significant diagnostic value for the differentiation of concomitant tau pathology in CAA. We demonstrate that meta-temporal tau in CAA is associated with a higher amyloid load and reduced perfusion in the temporal lobe, which is suggestive of neurodegeneration. The combination of early- and late-phase amyloid PET scans may provide a novel approach to detect tau pathology in CAA, and could also help reduce the potential radiation exposure and avoid additional scans or the expense of additional imaging for tau biomarkers.</p>
+</sec>
+</body>
+<back>
+<sec sec-type="acknowledgment">
+<title>Acknowledgement</title>
+<p>We thank the staff of (i) the PET and Cyclotron Center, Department of Nuclear Medicine, National Taiwan University Hospital, Taipei, Taiwan, and (ii) the Fifth Core Lab, Department of Medical Research, National Taiwan University Hospital, for technical support during the study.</p>
+</sec>
+<ref-list>
+<title>References</title>
+<ref id="ref1">
+<mixed-citation publication-type="journal"><string-name><surname>Uesugi</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Kozawa</surname>, <given-names>Y.</given-names></string-name>, &amp; <string-name><surname>Sato</surname>, <given-names>S.</given-names></string-name> (<year>2021</year>) <article-title>Electron Round Lenses With Negative Spherical Aberration By A Tightly Focused Cylindrically Polarized Light Beam</article-title>. <source>Physical Review Applied</source>, <volume>16</volume>, <fpage>L011002</fpage>.</mixed-citation>
+</ref>
+<ref id="ref2">
+<mixed-citation publication-type="journal"><string-name><surname>Uesugi</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Kozawa</surname>, <given-names>Y.</given-names></string-name>, &amp; <string-name><surname>Sato</surname>, <given-names>S.</given-names></string-name> (<year>2022</year>) <article-title>Properties Of Electron Lenses Produced By Ponderomotive Potential With Bessel And Laguerre–Gaussian Beams</article-title>. <source>Journal of Optics</source>, <volume>24</volume>, <fpage>054013</fpage>.</mixed-citation>
+</ref>
+<ref id="ref3">
+<mixed-citation publication-type="book"><string-name><surname>Yariv</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Yeh</surname>, <given-names>P.</given-names></string-name> (<year>2007</year>) <article-title>Photonics: optical electronics in modern communications</article-title>. (6th ed.). <publisher-name>Oxford University Press</publisher-name>, (Chapter 2).</mixed-citation>
+</ref>
+<ref id="ref4">
+<mixed-citation publication-type="journal"><string-name><surname>Zach</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Haider</surname>, <given-names>M.</given-names></string-name> (<year>1995</year>) <article-title>Aberration correction in a low voltage SEM by a multipole corrector, <em>Eretmochelys imbricata</em></article-title>. <source>Nuclear Instruments and Methods in Physics Research Section A</source>, <volume>363</volume>, <fpage>316</fpage>-<lpage>325</lpage>.</mixed-citation>
+</ref>
+<ref id="ref5">
+<mixed-citation publication-type="journal"><string-name><surname>Zeng</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Zhu</surname>, <given-names>Y.</given-names></string-name>, &amp; <string-name><surname>Lam</surname>, <given-names>E. Y.</given-names></string-name> (<year>2021</year>) <article-title>Deep learning for digital holography: a review, New York, Mount Everest, Pacific Ocean, or India</article-title>. <source>Optics Express</source>, <volume>29</volume>(<issue>24</issue>), <fpage>40572</fpage>-<lpage>40593</lpage>.</mixed-citation>
+</ref>
+<ref id="ref6">
+<mixed-citation publication-type="journal"><string-name><surname>Zhan</surname>, <given-names>Q.</given-names></string-name> (<year>2009</year>) <article-title>Cylindrical vector beams: from mathematical concepts to applications, NMR data</article-title>. <source>Advances in Optics and Photonics</source>, <volume>1</volume>(<issue>1</issue>), <fpage>1</fpage>-<lpage>57</lpage>.</mixed-citation>
+</ref>
+<ref id="ref7">
+<mixed-citation publication-type="journal"><string-name><surname>Allen</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Beijersbergen</surname>, <given-names>M. W.</given-names></string-name>, <string-name><surname>Spreeuw</surname>, <given-names>R. J. C.</given-names></string-name>, &amp; <string-name><surname>Woerdman</surname>, <given-names>J. P.</given-names></string-name> (<year>1992</year>) <article-title>Orbital angular momentum of light and the transformation of Laguerre-Gaussian laser modes, ABR</article-title>. <source>Physical Review A</source>, <volume>45</volume>, <fpage>8185</fpage>.</mixed-citation>
+</ref>
+<ref id="ref8">
+<mixed-citation publication-type="journal"><string-name><surname>Axelrod</surname>, <given-names>J. J.</given-names></string-name>, <string-name><surname>Campbell</surname>, <given-names>S. L.</given-names></string-name>, <string-name><surname>Schwartz</surname>, <given-names>O.</given-names></string-name>, <string-name><surname>Turnbaugh</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Glaeser</surname>, <given-names>R. M.</given-names></string-name>, &amp; <string-name><surname>Müller</surname>, <given-names>H.</given-names></string-name> (<year>2020</year>) <article-title>Observation of the relativistic reversal of the ponderomotive potential</article-title>. <source>Physical Review Letters</source>, <volume>124</volume>, <fpage>174801</fpage>.</mixed-citation>
+</ref>
+<ref id="ref9">
+<mixed-citation publication-type="journal"><string-name><surname>Goreslavsky</surname>, <given-names>A.</given-names></string-name> (<year>2011</year>) <article-title>Bessel–Gauss beams as rigorous solutions of the Helmholtz equation</article-title>. <source>Journal of the Optical Society of America A</source>, <volume>28</volume>(<issue>10</issue>), <fpage>2100</fpage>-<lpage>2107</lpage>.</mixed-citation>
+</ref>
+<ref id="ref10">
+<mixed-citation publication-type="journal"><string-name><surname>Fedorov</surname>, <given-names>M. V.</given-names></string-name>, <string-name><surname>Goreslavsky</surname>, <given-names>S. P.</given-names></string-name>, &amp; <string-name><surname>Letokhov</surname>, <given-names>V. S.</given-names></string-name> (<year>1997</year>) <article-title>Ponderomotive forces and stimulated Compton scattering of free electrons in a laser field</article-title>. <source>Physical Review E</source>, <volume>55</volume>, <fpage>1015</fpage>.</mixed-citation>
+</ref>
+<ref id="ref11">
+<mixed-citation publication-type="journal"><string-name><surname>Freimund</surname>, <given-names>D. L.</given-names></string-name>, <string-name><surname>Aflatooni</surname>, <given-names>K.</given-names></string-name>, &amp; <string-name><surname>Batelaan</surname>, <given-names>H.</given-names></string-name> (<year>2001</year>) <article-title>Observation of the Kapitza–Dirac effect</article-title>. <source>Nature</source>, <volume>413</volume>, <fpage>142</fpage>-<lpage>143</lpage>.</mixed-citation>
+</ref>
+<ref id="ref12">
+<mixed-citation publication-type="journal"><string-name><surname>Krivanek</surname>, <given-names>O. L.</given-names></string-name>, <string-name><surname>Dellby</surname>, <given-names>N.</given-names></string-name>, &amp; <string-name><surname>Lupini</surname>, <given-names>A. R.</given-names></string-name> (<year>1999</year>) <article-title>Towards sub-Å electron beams</article-title>. <source>Ultramicroscopy</source>, <volume>78</volume>, <fpage>1</fpage>-<lpage>11</lpage>.</mixed-citation>
+</ref>
+<ref id="ref13">
+<mixed-citation publication-type="book"><string-name><surname>Landau</surname>, <given-names>L. D.</given-names></string-name>, &amp; <string-name><surname>Lifshitz</surname>, <given-names>E. M.</given-names></string-name> (<year>1969</year>) <article-title>Mechanics: course of theoretical physics volume 1</article-title>. (2nd ed.). <publisher-name>Oxford: Pergamon</publisher-name>, (Chapter 7).</mixed-citation>
+</ref>
+<ref id="ref14">
+<mixed-citation publication-type="journal"><string-name><surname>Mihaila</surname>, <given-names>M. C. C.</given-names></string-name>, <string-name><surname>Weber</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Schneller</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Grandits</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Nimmrichter</surname>, <given-names>S.</given-names></string-name>, &amp; <string-name><surname>Juffmann</surname>, <given-names>T.</given-names></string-name> (<year>2022</year>) <article-title>Transverse electron-beam shaping with light</article-title>. <source>Physical Review X</source>, <volume>12</volume>, <fpage>031043</fpage>.</mixed-citation>
+</ref>
+<ref id="ref15">
+<mixed-citation publication-type="journal"><string-name><surname>Richards</surname>, <given-names>B.</given-names></string-name>, &amp; <string-name><surname>Wolf</surname>, <given-names>E.</given-names></string-name> (<year>1959</year>) <article-title>Electromagnetic diffraction in optical systems, II. Structure of the image field in an aplanatic system</article-title>. <source>Proceedings of the Royal Society A</source>, <volume>253</volume>, <fpage>358</fpage>-<lpage>379</lpage>.</mixed-citation>
+</ref>
+<ref id="ref16">
+<mixed-citation publication-type="journal"><string-name><surname>Charidimou</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Farid</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Tsai</surname>, <given-names>HH.</given-names></string-name>, <string-name><surname>Tsai</surname>, <given-names>LK.</given-names></string-name>, <string-name><surname>Yen</surname>, <given-names>RF.</given-names></string-name>, &amp; <string-name><surname>Baron</surname>, <given-names>JC.</given-names></string-name> (<year>2018</year>) <article-title>Amyloid-PET burden and regional distribution in cerebral amyloid angiopathy: a systematic review and meta-analysis of biomarker performance</article-title>. <source>J Neurol Neurosurg Psychiatry</source>, <volume>89</volume>(<issue>4</issue>), <fpage>410</fpage>-<lpage>417</lpage>.</mixed-citation>
+</ref>
+</ref-list>
+</back>
+<floats-group>
+<fig id="fig1" orientation="portrait" position="float">
+<label>Figure 1</label>
+<caption>
+<p>Tree Diagram Of Stimuli-Responsive Materials, With A Particular Focus On The SMMs Category [12].</p>
+</caption>
+<!--graphic content missing-->
+</fig>
+<fig id="fig2" orientation="portrait" position="float">
+<label>Figure 2</label>
+<caption>
+<p>Representative Neuroimaging Of Patients With CAA</p>
+</caption>
+<!--graphic content missing-->
+</fig>
+<fig id="fig3" orientation="portrait" position="float">
+<label>Fig. 3</label>
+<caption>
+<p>Comparison of early- and late-phase PiB PET uptake between the CAA/tau(+) and CAA/tau(-) groups.</p>
+</caption>
+<!--graphic content missing-->
+</fig>
+<table-wrap id="tab1" orientation="portrait" position="float">
+<label>Table 1</label>
+<caption>
+<p>AM presents A Superior Alternative To Conventional Manufacturing Methods</p>
+</caption>
+<table frame="hsides" rules="groups">
+<tbody>
+<tr>
+<td>S. No</td>
+<td>Details</td>
+<td>Counts</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Mathematics</td>
+<td>3</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Physics</td>
+<td>4</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Chemistry</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<table-wrap id="tab2" orientation="portrait" position="float">
+<label>Table 2</label>
+<caption>
+<p>Tab. 1. A Superior Alternative To Conventional Manufacturing Methods</p>
+</caption>
+<table frame="hsides" rules="groups">
+<tbody>
+<tr>
+<td>S. No</td>
+<td>Details</td>
+<td>Counts</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Mathematics</td>
+<td>3</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Physics</td>
+<td>4</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Chemistry</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</floats-group>
+</article>
