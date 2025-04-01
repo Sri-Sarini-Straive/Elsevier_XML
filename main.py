@@ -79,7 +79,6 @@ if first_label:
     print(first_label[0].text)
 
 
-# 3. Select the ce:label elements within ce:figure elements:
 figure_labels = root.xpath('//ce:figure/ce:label', namespaces=namespace)
 print("\n3. ce:label elements within ce:figure elements:")
 for label in figure_labels:
@@ -93,7 +92,6 @@ if(figure):
     print(figure[0].tag, figure[0].attrib, figure[0].text)
     print(figure)
 
-# 5. Select the text of all ce:simple-para elements:
 # simple_paras_text = root.xpath('//ce:simple-para/text()', namespaces=namespace)
 # print("\n5. Text of all ce:simple-para elements:")
 # for text in simple_paras_text:
@@ -104,13 +102,11 @@ if(figure):
 # for text in simple_paras_text1:
 #     print(text.text) 
 
-# 6. Select the parent of the first ce:label element:
 # parent_of_first_label = root.xpath('//ce:label[1]/parent::*', namespaces=namespace)
 # print("\n6. Parent of the first ce:label element:")
 # if parent_of_first_label:
 #     print(parent_of_first_label[0].tag)
 
-# 7. Select all attributes of ce:figure elements:
 # figure_attributes = root.xpath('//ce:figure/@*', namespaces=namespace)
 # print("\n7. All attributes of ce:figure elements:")
 # for attribute in figure_attributes:
@@ -121,19 +117,16 @@ if(figure):
 # print("\n7. All attributes of ce:figure elements1:")
 # for attribute in figure_attributes:
 #     print(attribute)
-# 8. Select the ce:link element with a specific href attribute:
 specific_link = root.xpath('//ce:link[@xlink:href="pii:S0169433224021974/gr1"]', namespaces=namespace)
 print("\nce:link element with specific href:")
 if specific_link:
     print(specific_link[0].tag, specific_link[0].attrib)
 
-# 9. Select the ce:caption elements.
 # captions = root.xpath('//ce:caption', namespaces=namespace)
 # print("\n9. ce:caption elements:")
 # for caption in captions:
 #     print(caption.tag, caption.attrib)
 
-# 10. Select the ce:inf elements.
 # inf_elements = root.xpath('//ce:inf', namespaces=namespace)
 # print("\n10. ce:inf elements:")
 # for inf in inf_elements:
@@ -150,12 +143,10 @@ if figures:
     figures[0].set("modified", "true") 
 
 
-# 3. Remove the ce:link element with href="pii:S0169433224021974/gr2"
 link_to_remove = root.xpath('//ce:link[@xlink:href="pii:S0169433224021974/gr2"]', namespaces=namespace)
 if link_to_remove:
     link_to_remove[0].getparent().remove(link_to_remove[0]) 
 
-# 4. Add a new ce:simple-para element to the first ce:caption
 captions = root.xpath('//ce:caption', namespaces=namespace)
 if captions:
     new_para = etree.Element("{http://www.elsevier.com/}simple-para") 
@@ -165,7 +156,6 @@ if captions:
 if figures:
   figures[0].set("id", "modified_id")
 
-# 6. Remove all attributes of the second figure.
 if len(figures) > 1:
   for attr in list(figures[1].attrib.keys()):
     del figures[1].attrib[attr]
