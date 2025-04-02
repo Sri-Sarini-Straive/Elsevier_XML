@@ -1,25 +1,31 @@
 print('Hello, World!')
 import xml.etree.ElementTree as ET
 from lxml import etree
-
+import re
 
 parser = etree.XMLParser(recover=True,encoding='utf-8')
 xml_file = ET.parse('example2.xml',parser=parser)
-import re
 root = xml_file.getroot()
+namespace = {
+    'ce': 'http://www.elsevier.com/',
+    'xlink': 'http://www.w3.org/',
+    'sb': 'http://www.elsevier.comm/'
+}
+
+new_root = etree.Element(root.tag, nsmap=namespace)
+
+new_root[:] = root[:]
+
+# print(etree.tostring(new_root, pretty_print=True, encoding='unicode'))
+
+with open('modified_example2.xml', 'wb') as f:
+    f.write(etree.tostring(new_root, pretty_print=True, xml_declaration=True, encoding='utf-8'))
 
 
-# title = root.find('.//ce:title', namespaces={'ce': 'http://www.elsevier.com/'})
-# print( title)
 
-# print(root)
-# parser = ET.XMLParser(encoding='utf-8')
-# xml_file = ET.parse('example2.xml',parser=parser)
-# tree = ET.XMLParser('example.xml')
-# tree = ET.parse('example.xml')
-# root = tree.getroot()
-
-
+parser = etree.XMLParser(recover=True,encoding='utf-8')
+xml_file = ET.parse('modified_example2.xml',parser=parser)
+root = xml_file.getroot()
 
 # print(root.tag)
 # print(root.attrib)
@@ -45,10 +51,6 @@ root = xml_file.getroot()
 # title = root.find('head')
 # print("Title:", title.text)
 
-namespace = {'ce': 'http://www.elsevier.com/', 'xlink': 'http://www.w3.org/'
-}
-
-# Iterate and print all ce:label elements
 # for label in root.findall('.//ce:label', namespaces=namespace):
 #     print(label.text)
 
@@ -174,3 +176,70 @@ tree.write(output_file, encoding="utf-8", xml_declaration=True, pretty_print=Tru
 
 print(f"Modified XML written to {output_file}")
 
+def check_xpath_exists(root, xpath_query, namespace):
+    elements = root.xpath(xpath_query, namespaces=namespace)
+    if elements:
+        print(f"{xpath_query} exists")
+    else:
+        print(f"{xpath_query} does not exist")
+
+parser = etree.XMLParser(recover=True, encoding='utf-8')
+xml_file = ET.parse('example2.xml', parser=parser)
+root = xml_file.getroot()
+
+namespace = {'ce': 'http://www.elsevier.com/', 'xlink': 'http://www.w3.org/', 'sb': 'http://www.elsevier.comm/'
+}
+
+xpath_queries = [
+    '//ce:abstract',
+    '//ce:abstract/ce:section-title/ce:abstract-sec/ce:simple-para',
+    '//body/ce:acknowledgment | //ce:acknowledgment/ce:section-title[text()="Acknowledgements"]',
+    '//ce:affiliation',
+    '//ce:dochead/ce:textfn',
+    '//head/ce:title',
+    '//article | //simple-article | //book-review | //exam',
+    '//head/ce:author-group/ce:author',
+    '//head/ce:article-footnote',
+    '//ce:author-group',
+    '//tail | //simple-tail',
+    '//tail/ce:biography | //simple-tail/ce:biography',
+    '//article//body',
+    '//ce:textbox/ce:caption/ce:simple-para',
+    '//ce:textbox/ce:label',
+    '//ce:textbox-head/ce:title',
+    '//ce:correspondence',
+    '//ce:display/ce:formula',
+    '//ce:figure/ce:caption',
+    '//ce:cross-ref[starts-with(@refid, "f")]',
+    '//ce:figure/ce:label',
+    '//ce:figure/ce:legend/ce:simple-para',
+    '//ce:figure/ce:caption/ce:simple-para',
+    '//ce:figure',
+    '//head',
+    '//ce:section[@role="funding"]',
+    '//body/ce:sections/ce:section/ce:section-title',
+    '//body/ce:sections/ce:section/ce:section/ce:section-title',
+    '//body/ce:sections/ce:section/ce:section/ce:section/ce:section-title',
+    '//body/ce:sections/ce:section/ce:section/ce:section/ce:section/ce:section-title',
+    '//ce:section/ce:section-title',
+    '//head/ce:date-received | //head/ce:date-revised | //head/ce:date-accepted',
+    '//ce:keywords/ce:keyword',
+    '//ce:display/ce:formula | //ce:inline/ce:formula',
+    '//ce:displayed-quote',
+    '//tail/ce:bibliography | //simple-tail/ce:bibliography',
+    '//sb:title/sb:maintitle',
+    '//ce:table/ce:caption',
+    '//ce:cross-ref[starts-with(@refid, "t")]',
+    '//ce:table/ce:label',
+    '//ce:legend/ce:simple-para | //ce:foot-note',
+    '//ce:floats/ce:table/ce:caption/ce:simple-para',
+    '//ce:floats/ce:table',
+    '//ce:title | //ce:abstract | //ce:keywords | //body/ce:sections  | //tail/ce:bibliography | //ce:floats/ce:table/ce:caption/ce:simple-para | //ce:figure/ce:caption',
+    '//ce:title | //ce:abstract/ce:section-title/ce:abstract-sec | //ce:keywords | //body/ce:sections/ce:section  | //tail/ce:bibliography/ce:bib-reference | //ce:floats/ce:table/ce:caption/ce:simple-para | //ce:figure/ce:caption/ce:simple-para',
+    '//ce:nomenclature/ce:section-title[text()="Abbreviations"]',
+    '//ce:def-list/ce:def-term | //ce:def-list/ce:def-description'
+]
+
+print("printing the answer")
+for query in xpath_queries:
+    check_xpath_exists(root, query, namespace)
